@@ -20,4 +20,6 @@ from . import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.deployer, name='deployer'),
+    path('bot_search/', views.bot_search, name='bot_search'),
+
 ]
